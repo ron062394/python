@@ -324,6 +324,19 @@ alpha_string = "Python"
 print(alpha_string.isalpha())  # Output: True
 ```
 
+Concatenation and Formatting
+``` python
+first_name = "Data"
+last_name = "Scientist"
+
+# Concatenation
+full_name = first_name + " " + last_name
+print("Concatenated string:", full_name)
+
+# Formatting using f-strings
+print(f"My job is a {first_name} {last_name}")
+```
+
 
 
 
