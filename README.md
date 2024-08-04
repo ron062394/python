@@ -160,3 +160,45 @@ result = x <= y
 print(result)
 ```
 
+
+
+Logical Operators
+``` python
+x = 10
+y = 5
+
+# AND
+result = (x > 5) and (y < 10)
+
+# OR
+result = (x > 5) or (y < 3)
+
+# NOT
+result = not (x == 10)
+```
+
+
+
+Assignment Operators
+``` python
+x = 10
+
+# Addition Assignment
+x += 5  # Equivalent to x = x + 5
+
+# Subtraction Assignment
+x -= 3  # Equivalent to x = x - 3
+
+# Multiplication Assignment
+x *= 2  # Equivalent to x = x * 2
+
+# Division Assignment
+x /= 4  # Equivalent to x = x / 4
+
+# Modulus Assignment
+x %= 3  # Equivalent to x = x % 3
+```
+
+
+
+
