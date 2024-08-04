@@ -1,4 +1,4 @@
-# python
+# Python Part 1
 
 ## **Typeof Comments**
 Single Line Comments
