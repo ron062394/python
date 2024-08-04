@@ -50,3 +50,58 @@ Checking Data Type
 ``` python
 print('Type of integer_number:' , type(integer_number))
 ```
+
+
+
+Float 
+``` python
+float_number = 2.14
+negative_float = -20.55
+print(float_number)
+print(negative_float)
+```
+Checking Data Type
+``` python
+print(type(float_number))
+```
+
+String 
+``` python
+str1 = 'Hello World!'
+str2 = "Hello to the world of Python"
+user = 'user123'
+print(str1)
+print(str2)
+print(user)
+```
+Checking Data Type
+``` python
+print(type(str1))
+```
+
+
+
+Boolean Type 
+``` python
+is_valid = True
+is_admin = False
+print(is_valid)
+print(is_admin)
+```
+Checking Data Type
+``` python
+print(type(is_admin))
+```
+
+
+Dynamic Typing
+``` python
+my_var = 10
+print(type(my_var))
+
+my_var = "Hello World"
+print(type(my_var))
+
+my_var = 1.2
+print(type(my_var))
+```
