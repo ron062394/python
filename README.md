@@ -294,7 +294,11 @@ sentence = "Python,is,fun,to,learn"
 # Split the sentence into a list of words based on commas
 words = sentence.split(",")
 print("Words:", words)  # Output: ['Python', 'is', 'fun', 'to', 'learn']
+```
 
+
+Boolean Checks for String Methods
+``` python
 # Initialize the filename
 filename = "report.doc"
 
@@ -318,10 +322,7 @@ print(numeric_string.isdigit())  # Output: True
 # The string contains only alphabetic characters
 alpha_string = "Python"
 print(alpha_string.isalpha())  # Output: True
-
 ```
-
-
 
 
 
