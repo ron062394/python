@@ -97,35 +97,41 @@ print(list_c)
 ## **Tuple**
 Creating a tuple
 ``` python
-
+tuple_data = (1,2,3,4,5)
+print(tuple_data)
+tuple_data = (1,2) * 3
+print(type(tuple_data))
+print(tuple_data)
 ```
 
 Accessing elements
 ``` python
-
-
+tuple_data = (1,2,3,4,5)
+print(tuple_data[2])
 ```
 
 Slicing tuples
 ``` python
-
-
+tuple_data = (1,2,3,4,5)
+print(tuple_data[2:])
 ```
 
 
 Tuple Immutability
 ``` python
-
-
+tuple_data = (1,2,3,4,5)
+tuple_data[0]=11
+print(tuple_data)
 ```
 
 Finding the first occurence and count in tuple
 ``` python
-
-
+tuple_data = (1,2,3,4,5,2,2,3,3,3,3)
+tuple_data.index(2)
+tuple_data.count(2)
 ```
 
-## **Tuple**
+## **Dictionary**
 Creating a dictionary and accessing values
 ``` python
 
