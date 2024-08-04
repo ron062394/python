@@ -22,19 +22,16 @@ x = 10;
 ## **Variables**
 Cell 1
 ``` python
-"""
 my_number1 = 10
 print(my_number1)
 ```
 Cell 2
 ``` python
-"""
 x-2 = 10  # This will throw an error
 #2_b = 10 # This will throw an error
 ```
 Cell 3
 ``` python
-"""
 True = 5 # This will throw an error
 ```
 
@@ -44,14 +41,12 @@ True = 5 # This will throw an error
 ## **Data Types**
 Numeric Types
 ``` python
-"""
 integer_number = 5
 negative_int = -20
 print(integer_number)
 print(negative_int)
 ```
-Checkinng Data Type
+Checking Data Type
 ``` python
-"""
 print('Type of integer_number:' , type(integer_number))
 ```
