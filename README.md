@@ -105,3 +105,58 @@ print(type(my_var))
 my_var = 1.2
 print(type(my_var))
 ```
+
+
+
+## Python Operators and Expressions
+Arithmetic operators
+``` python
+# Addition
+print("Addition:", a + b)
+
+# Subtraction
+print("Subtraction:", a - b)
+
+# Multiplication
+print("Multiplication:", a * b)
+
+# Division
+print("Division:", a / b)
+
+# Floor Division (result is floored to the nearest integer)
+print("Floor Division:", a // b)
+
+# Modulus (remainder of the division)
+print("Modulus:", a % b)
+
+# Exponentiation
+print("Exponentiation:", a ** 2)
+```
+
+
+Comparison Operators
+``` python
+x = 10
+y = 5
+
+# Equal to
+result = x == y
+
+# Not equal to
+result = x != y
+
+# Greater than
+result = x > y
+
+# Less than
+result = x < y
+
+# Greater than or equal to
+result = x >= y
+
+# Less than or equal to
+result = x <= y
+
+print(result)
+```
+
