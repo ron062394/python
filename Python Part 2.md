@@ -50,6 +50,7 @@ list_data[3:]
 
 ```
 
+
 Extending a List with Another List
 ``` python
 list_a = [1,2,3]
@@ -58,6 +59,7 @@ list_b = ["a","b",True]
 # print(list_b)
 list_a + list_b
 ```
+
 
 Reversing a List
 ``` python
@@ -71,11 +73,14 @@ list_data = [3,4,1,8,9,10,8]
 list_data.sort(reverse=True)
 print(list_data)
 ```
+
+
 ``` python
 list_data = ["z","a","c"]
 list_data.sort()
 print(list_data)
 ```
+
 
 Copying a List
 ``` python
@@ -86,6 +91,7 @@ print(list_a)
 print(list_b)
 print(list_c)
 ```
+
 
 Clearing a List
 ``` python
@@ -124,6 +130,7 @@ tuple_data[0]=11
 print(tuple_data)
 ```
 
+
 Finding the first occurence and count in tuple
 ``` python
 tuple_data = (1,2,3,4,5,2,2,3,3,3,3)
@@ -131,67 +138,88 @@ tuple_data.index(2)
 tuple_data.count(2)
 ```
 
+
 ## **Dictionary**
 Creating a dictionary and accessing values
 ``` python
-
-
+dict_data = {"name": "Kevin", "age":31, "address":"Bataan"}
+print(type(dict_data))
+print(dict_data["age"])
 ```
+
 
 Removing a key-value pair
 Using get() method to access values
 ``` python
-
-
+print(dict_data.get("address"))
 ```
+
+
+Removing a key-value pair
+``` python
+del dict_data["age"]
+print(dict_data)
+```
+
 
 Dictionary keys
 ``` python
-
-
+print(dict_data.keys())
 ```
+
 
 Dictionary values
 ``` python
-
-
+dict_data.values()
 ```
 
 
 Dictionary items (key-value pairs)
 ``` python
-
-
+dict_data.items()
 ```
 
 
 Merging Two Dictionaries*
 ``` python
+dict_data1 = {"a":1,"b":2,"c":3}
+dict_data2 = {"c":200,"y":4,"z":6}
 
-
+dict_data1.update(dict_data2)
+print(dict_data1)
 ```
 
 
 Dictionary Comprehensions
 ``` python
-
-
+dict_data = {x+1: x for x in range(10)}
+print(dict_data
 ```
 
 Using setdefault
 ``` python
-
-
+counts = {'apple':3,'orange':5}
+counts.setdefault('banana',0)
+print(counts)
 ```
+
 
 Getting a Dictionary of Keys and Default Values
 ``` python
-
-
+keys = ['a','b','c']
+default_value = 0
+data_dict = dict.fromkeys(keys,default_value)
+print(data_dict)
 ```
 
 
 ``` python
-
-
+dict_data1 = {
+    "label_a":{"name":"Kevin","age":31},
+    "label_b":{"address":"Bataan","favorite_number":[5,7,11]}
+}
+#print(dict_data1)
+dict_data1["label_b"]["favorite_number"][1]=9
+print(dict_data1["label_b"]["favorite_number"][1])
+print(dict_data1)
 ```
