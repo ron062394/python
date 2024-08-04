@@ -17,6 +17,8 @@ x = 10;
 ```
 
 
+
+
 ## **Variables**
 Cell 1
 ``` python
@@ -38,16 +40,18 @@ True = 5 # This will throw an error
 
 
 
-Title
+
+## **Data Types**
+Numeric Types
 ``` python
 """
-code here
+integer_number = 5
+negative_int = -20
+print(integer_number)
+print(negative_int)
 ```
-
-
-
-Title
+Checkinng Data Type
 ``` python
 """
-code here
+print('Type of integer_number:' , type(integer_number))
 ```
