@@ -179,26 +179,6 @@ result = not (x == 10)
 
 
 
-Assignment Operators
-``` python
-x = 10
-
-# Addition Assignment
-x += 5  # Equivalent to x = x + 5
-
-# Subtraction Assignment
-x -= 3  # Equivalent to x = x - 3
-
-# Multiplication Assignment
-x *= 2  # Equivalent to x = x * 2
-
-# Division Assignment
-x /= 4  # Equivalent to x = x / 4
-
-# Modulus Assignment
-x %= 3  # Equivalent to x = x % 3
-```
-
 
 
 ## Strings
