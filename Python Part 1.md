@@ -115,6 +115,9 @@ print(type(my_var))
 ## Python Operators and Expressions
 Arithmetic operators
 ``` python
+a = 10
+b = 5
+
 # Addition
 print("Addition:", a + b)
 
@@ -203,24 +206,5 @@ my_text = "Reverse this string!"
 reversed_string = my_text[::-1]
 print("Reversed string:", reversed_string)
 ```
-
-Creating and Accessing Strings
-``` python
-my_string = "Hello, Python!"
-print(my_string)
-my_string = 'Hello, Python!'
-print(my_string)
-
-first_letter = my_string[0]
-print("The first letter is:", first_letter)
-
-slice_string = my_string[0:5]
-print("Slice of string:", slice_string)
-
-my_text = "Reverse this string!"
-reversed_string = my_text[::-1]
-print("Reversed string:", reversed_string)
-```
-
 
 
