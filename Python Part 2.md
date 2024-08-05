@@ -111,7 +111,6 @@ print(dict_data["age"])
 ```
 
 
-Removing a key-value pair
 Using get() method to access values
 ``` python
 print(dict_data.get("address"))
