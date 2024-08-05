@@ -116,12 +116,6 @@ tuple_data = (1,2,3,4,5)
 print(tuple_data[2])
 ```
 
-Slicing tuples
-``` python
-tuple_data = (1,2,3,4,5)
-print(tuple_data[2:])
-```
-
 
 Tuple Immutability
 ``` python
@@ -129,15 +123,6 @@ tuple_data = (1,2,3,4,5)
 tuple_data[0]=11
 print(tuple_data)
 ```
-
-
-Finding the first occurence and count in tuple
-``` python
-tuple_data = (1,2,3,4,5,2,2,3,3,3,3)
-tuple_data.index(2)
-tuple_data.count(2)
-```
-
 
 ## **Dictionary**
 Creating a dictionary and accessing values
@@ -180,46 +165,4 @@ dict_data.items()
 ```
 
 
-Merging Two Dictionaries*
-``` python
-dict_data1 = {"a":1,"b":2,"c":3}
-dict_data2 = {"c":200,"y":4,"z":6}
 
-dict_data1.update(dict_data2)
-print(dict_data1)
-```
-
-
-Dictionary Comprehensions
-``` python
-dict_data = {x+1: x for x in range(10)}
-print(dict_data
-```
-
-Using setdefault
-``` python
-counts = {'apple':3,'orange':5}
-counts.setdefault('banana',0)
-print(counts)
-```
-
-
-Getting a Dictionary of Keys and Default Values
-``` python
-keys = ['a','b','c']
-default_value = 0
-data_dict = dict.fromkeys(keys,default_value)
-print(data_dict)
-```
-
-
-``` python
-dict_data1 = {
-    "label_a":{"name":"Kevin","age":31},
-    "label_b":{"address":"Bataan","favorite_number":[5,7,11]}
-}
-#print(dict_data1)
-dict_data1["label_b"]["favorite_number"][1]=9
-print(dict_data1["label_b"]["favorite_number"][1])
-print(dict_data1)
-```
