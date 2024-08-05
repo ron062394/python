@@ -3,7 +3,7 @@
 ## **Typeof Comments**
 Single Line Comments
 ``` python
-`# This is a single-line comment`
+# This is a single-line comment
 ```
 
 Multi-Line Comments
@@ -16,6 +16,10 @@ It's enclosed in triple quotes.
 x = 10;
 ```
 
+Inline Comments
+``` python
+x = 5  # This is an inline comment that extends until the end of the line
+```
 
 
 
