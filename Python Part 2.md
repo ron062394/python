@@ -117,6 +117,14 @@ print(dict_data.get("address"))
 ```
 
 
+Modify the value using the key
+``` python
+dict_data["address"] = "Manila"
+print(dict_data)
+```
+
+
+
 Removing a key-value pair
 ``` python
 del dict_data["age"]
