@@ -51,16 +51,6 @@ list_data[3:]
 ```
 
 
-Extending a List with Another List
-``` python
-list_a = [1,2,3]
-list_b = ["a","b",True]
-# list_b.extend(list_a)
-# print(list_b)
-list_a + list_b
-```
-
-
 Reversing a List
 ``` python
 list_b.reverse()
@@ -80,18 +70,6 @@ list_data = ["z","a","c"]
 list_data.sort()
 print(list_data)
 ```
-
-
-Copying a List
-``` python
-list_a = [1,2,3,4,5]
-list_b = [2,4,6,8,10]
-list_c = list_b.copy()
-print(list_a)
-print(list_b)
-print(list_c)
-```
-
 
 Clearing a List
 ``` python
